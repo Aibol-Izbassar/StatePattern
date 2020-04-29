@@ -12,7 +12,8 @@ namespace PatternStateTrafficLight
             Console.WriteLine(tl.CurrentLight);
             tl.Next();
             Console.WriteLine(tl.CurrentLight);
-            
+
+            tl.Manual("H");
 
             tl.Manual("G");
             Console.WriteLine(tl.CurrentLight);
@@ -23,6 +24,8 @@ namespace PatternStateTrafficLight
             Console.WriteLine(tl.CurrentLight);
             tl.Next();
             Console.WriteLine(tl.CurrentLight);
+
+            
 
         }
     }
